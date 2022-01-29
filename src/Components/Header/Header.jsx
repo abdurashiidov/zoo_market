@@ -1,25 +1,43 @@
 import React from 'react';
 import "./Header.scss"
-import logo from "../../img/logo-exam.png"
-import logo2 from "../../img/logo.jpg"
+import logo from "../../img/zooLogo.png"
 
 function Header() {
   return (
-    <div>
-      <header>
-        {/* Header */}
-        <img src={logo} alt="logo" width={150} height={150} />
-        {/* <img src={logo2} alt="logo" width={300} height={150} /> */}
 
-        <ul className="header-list">
-          <li className="header-item"><a href="#"> Bosh sahifa </a> </li>
-          <li className="header-item"> <a href="#"> Biz haqimizda </a> </li>
-          <li className="header-item"> <a href="#"> Buyurtma qilish </a> </li>
-        </ul>
 
-      </header>
+      <section className='header-section'>
 
-    </div>
+        <div className="container">
+          <header className='header'>
+          <img className='header-logo' src={logo} alt="logo" width={100} height={100} />
+
+          <ul className="header-list">
+            <li className="header-item"><a className='header-link' href="#"> Bosh sahifa </a> </li>
+            <li className="header-item"> <a className='header-link' href="#"> Buyurtma qilish </a> </li>
+            <li className="header-item"> <a className='header-link' href="#"> Biz haqimizda </a> </li>
+            <li className="header-item"> <a className='header-link' href="#"> Biz bilan bog'lanish </a> </li>
+          </ul>
+
+          <i class="fa-solid fa-magnifying-glass icon-search"></i>
+
+          <select name="" id="">
+            <option value="uz">uz</option>
+            <option value="ru">ru</option>
+            <option value="en">en</option>
+          </select>
+
+          <i class="fa-regular fa-sun icon-sunn"></i>
+          <i class="fa-solid fa-moon"></i>
+          </header>
+            
+
+        </div>
+       
+
+      </section>
+
+
   );
 }
 
