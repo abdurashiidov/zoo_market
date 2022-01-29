@@ -14,6 +14,7 @@ function Header() {
         <ul className="header-list">
           <li className="header-item">Bosh sahifa</li>
           <li className="header-item">Biz haqimizda</li>
+          <li className="header-item">Buyurtma</li>
         </ul>
       </header>
 
