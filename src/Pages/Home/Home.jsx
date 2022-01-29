@@ -6,9 +6,9 @@ function Home() {
   return (
     <>
           <Header/>
-    <div className='main-home'>
-      Home
-    </div>
+            <div className='main-home'>
+              Home
+            </div>
          <Footer/>
     </>
   );

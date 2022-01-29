@@ -1,11 +1,17 @@
 import React from 'react';
 import "./Order.scss"
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 
 function Order() {
   return (
-    <div>
-      Order
-    </div>
+    <>
+      <Header />
+      <div>
+        Order
+      </div>
+      <Footer />
+    </>
   );
 }
 

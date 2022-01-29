@@ -43,6 +43,9 @@
 
     }
 }
+.header-select{
+    border: 1px solid #4FBDBA;
+}
 .icon-search{
     position: absolute;
     cursor: pointer;
@@ -61,4 +64,16 @@
 .icon-sunn{
     position: absolute;
     margin-left: 1230px;
+
+    &:active{
+        transform: scale(1.8);
+    }
+}
+.icon-moonn{
+    // display: flex;
+    
+    &:active{
+        transform: scale(1.8);
+
+    }
 }

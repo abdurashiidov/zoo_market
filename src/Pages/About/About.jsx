@@ -1,11 +1,16 @@
 import React from 'react';
 import "./About.scss"
-
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 function About() {
   return (
-    <div>
-      About
-    </div>
+    <>
+      <Header />
+        <div>
+          About
+        </div>
+      <Footer />
+    </>
   );
 }
 
